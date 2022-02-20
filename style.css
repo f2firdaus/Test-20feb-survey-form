@@ -1,0 +1,28 @@
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+#firstname{
+    padding: 12px;
+}
+#name{
+    border-radius: 4px;
+    width: 20%;
+    
+
+   
+}
+form{
+    text-align: center;
+}
+#check1{
+    text-align: center;
+    margin: 2px;
+}
+.bold1{
+    font-weight: 800;
+}
+.age1{
+    margin-right: 13%;
+}

@@ -1,0 +1,51 @@
+<!-- Ques 1 . create an HTML form to implement a single survey questionnaire containing several form input elements (e.g., text box, radio buttons,email, check boxes, drop-down list) and Submit button ( apply validation ) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>survey Questionnaire</h1>
+    <form action="">
+        <div id="firstname">
+        <p>
+            Name:
+            <input type="text" name="" id="name" required>
+        </p>
+        <label for=""></label>Email:
+        <input type="email" name="" id="name" required>
+        </div>
+
+        <p class="age1">Age:</p>        
+        <div id="age1">
+        <input type="radio" name="check1" id="check1" value="1">Below 21 
+        <input type="radio" name="check1" id="check1" value="2">21-30 
+        <input type="radio" name="check1" id="check1">31-40    
+        <input type="radio" name="check1" id="check1">41 and above 
+       
+     </div>
+    
+    <div id="civil1">
+       <p class="bold1">Civil Status:
+       <select name="" id="" required>
+           <option value="">Single</option>
+           <option value="">Married</option>
+           <option value="">Widowed/widower</option>
+           <option value="">Seperated</option>
+        </p>
+       </select></div>
+       <div class="gender1">
+        <span>Sex :</span> <input type="radio" name="radio1" id="radio1" >Male
+           <input type="radio" name="radio1" id="radio1">Female
+       </div>
+     <br>
+     <input type="checkbox" name="" id=""> Please read all term and condition<br> <br>
+<button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
